@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="in.css"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins',sans-serif;
+        }
+        body{
+            background-color: #081b29;
+        }
+        .header{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            padding: 20px 10%;
+            /* background: yellowgreen; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+       .logo{
+        font-size: 25px;
+        color: #ededed;
+        text-decoration: none;
+        font-weight: 600;
+       }
+       .navbar a{
+        font-size: 18px;
+        color: #ededed;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+       }
+       .navbar a:hover
+       {
+         color: rgb(94, 94, 241);
+       }
+       .home{
+        height: 100vh;
+        background: url('self.jpg');
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-left: 30px;
+       }
+       .homecontent{
+              max-width: 600px;
+       }
+       .homecontent h1{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.2;
+       }
+       .homecontent h3{
+        font-size: 30px;
+        font-weight: 700;
+        color: #00abf0;
+       }
+       .homecontent p{
+        font-size: 15px;
+        margin: 20px 0 40px;
+       }
+       .homecontent .btnbox{
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+         height: 50px;
+            
+       }
+       .btnbox a{
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 100%;
+        background: #00abf0;
+        border: 2px solid #00abf0;
+        border-radius: 8px;
+        font-size: 19px;
+        color: #081b29;
+        text-decoration: none;
+        letter-spacing: 1px;
+       }
+       .btnbox a:nth-child(2) {
+          background: transparent;
+          color: #00abf0;
+       }
+       .home-sci{
+        position: absolute;
+        bottom: 40px;
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+       }
+       .home-sci a{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid #00abf0;
+        border-radius: 50%;
+        font-size: 20px;
+        color: #00abf0;
+        text-decoration: none;
+       }
+       img{
+        margin-left: 300px;
+        border-radius: 50%;
+        border: 4px solid #00abf0;
+        
+           } 
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Sasya.</a>
+   <nav class="navbar">
+        <a href="#" calss="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+   </nav> 
+</header>
+<section class="home">
+    <div class="homecontent">
+        <h1>Hi, I'm Sasya Reddy</h1>
+        <h3>Working as a Forntend Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quidem deleniti, blanditiis obcaecati ex sint impedit quisquam cumque id nemo rem aliquam eligendi fuga a? Similique explicabo voluptas molestias placeat!</p>
+        <!-- <p>I'am a hardworking and  motivated in learning new things</p> -->
+        <div class="btnbox">
+            <a href="">Hire me</a>
+            <a href="">Let's Talk</a>
+        </div>
+    </div>
+    <div class="img">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRxz2Rsi9ZH4F7TM8Q5Os9CSB2ZVLI-aV41w&s">
+</div> 
+    <div class="home-sci">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+</section>
+</body>
+</html>
